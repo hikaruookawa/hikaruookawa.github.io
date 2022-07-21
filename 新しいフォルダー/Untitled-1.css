@@ -1,0 +1,19 @@
+@charset "utf-8";
+h1{
+    color: blue;
+    background-color: skyblue;
+    }
+    
+.sum{
+    color: red;
+}
+.botan{
+    background: linear-gradient(#FFFFFF,#888888);
+}
+div{
+    background-color: bisque;
+}
+.kRes{
+    color: red;
+    font-size: 25px;
+}

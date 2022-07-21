@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<!-- lang属性でページの言語を指定できる -->
+<html lang="ja">
+   <header>
+      <!-- ファイルの文字コード -->
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="./新しいフォルダー/Untitled-1.css">
+     <!-- ページ作成者 -->
+     <mete name="author" content="Okawa hikaru">
+        <!-- ページの内容を表すキーワード3～5 -->
+     <meta name="keywords" content="TRPG,dice,suuzi">
+    </mete>
+    <title>簡単に作った遊びページ</title>
+   </header>
+<body>
+<h1>遊びページ</h1>
+<p class="sum">現在htmlとjavaSvript練習中の人が作ったサイトです</p>
+<div class="omikujibase">
+    <h2 >おみくじ</h2>
+    <p id="KujiRes" class="kRes">??</p>
+    <p id="KujiCom" class="kCom">*****</p>
+ </div>
+ <p class="button"><input class="botan" type="button" value="おみくじを引く" onclick="ShowKuji( 'KujiRes', 'KujiCom' );"></p>
+ <div>
+    <h2>さいころ</h2>
+    <p><span id="condice1">*</span></p>
+</div>
+<p><input class="botan" type="button" value="ダイスロール" onclick="getDice1();"></p>
+ <script src="./新しいフォルダー/jquery-3.6.0.min.js" ></script>
+ <script src="./新しいフォルダー/omikuzi.js"></script>
+ <script src="./新しいフォルダー/saikoro.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.js" integrity="sha512-5m2r+g00HDHnhXQDbRLAfZBwPpPCaK+wPLV6lm8VQ+09ilGdHfXV7IVyKPkLOTfi4vTTUVJnz7ELs7cA87/GMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+   </html>
